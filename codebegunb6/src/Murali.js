@@ -9,4 +9,3 @@ function Murali() {
  }
  
  export default Murali;
- 
