@@ -6,7 +6,6 @@ function Sathvika(){
             <h1>2.Sathvika</h1>
         </div>
     )
-
 }
 
 export default Sathvika;
