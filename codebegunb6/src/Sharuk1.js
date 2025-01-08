@@ -3,7 +3,7 @@ function Sharuk1(){
     return(
         <div>
             <h2>
-                welcome to compomets
+                1. Sharuk
             </h2>
         </div>
     )
