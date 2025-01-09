@@ -3,7 +3,7 @@ import React from "react";
 function Sathvika(){
     return(
         <div>
-            <h1>2.Sathvika</h1>
+            <h2>2.Sathvika</h2>
         </div>
     )
 }
