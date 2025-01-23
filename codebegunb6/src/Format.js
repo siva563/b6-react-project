@@ -1,8 +1,8 @@
 import './App.css';
-import Text from './Text';
+
 import Formemail from './Formemail';
 import Radio from './Radio';
-import Checkbox from './Checkbox';
+
 
 function App() {
     return (
