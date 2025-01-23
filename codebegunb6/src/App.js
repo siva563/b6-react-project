@@ -6,6 +6,11 @@ import Murali from './Murali';
 import Murari1 from './Murari1';
 import Priya from './Priya';
 import Snehitha from './Snehitha';
+import Formemail from './Formemail';
+import Format from './Format';
+
+
+
 
 function App() {
   return (
@@ -18,6 +23,8 @@ function App() {
       <Murari1 />
       <Priya />
       <Snehitha />
+      <Formemail />
+      <Format />
     </div>
   );
 }
