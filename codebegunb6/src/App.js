@@ -8,7 +8,7 @@ import Priya from './Priya';
 import Snehitha from './Snehitha';
 import Formemail from './Formemail';
 import Format from './Format';
-
+import Radio from './Radio';
 
 
 
@@ -25,6 +25,7 @@ function App() {
       <Snehitha />
       <Formemail />
       <Format />
+      <Radio/>
     </div>
   );
 }
