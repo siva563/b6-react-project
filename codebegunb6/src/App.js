@@ -8,7 +8,9 @@ import Priya from './Priya';
 import Snehitha from './Snehitha';
 import Formemail from './Formemail';
 import Format from './Format';
+import Text from './Text';
 import Radio from './Radio';
+import Checkbox from './Checkbox';
 
 
 
@@ -28,6 +30,7 @@ function App() {
       <Format />
       <Text />
       <Radio />
+      <Checkbox />
     </div>
   );
 }
