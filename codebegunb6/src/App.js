@@ -9,6 +9,8 @@ import Snehitha from './Snehitha';
 import Formemail from './Formemail';
 import Format from './Format';
 import Radio from './Radio';
+import Text from './Text';
+
 
 
 
