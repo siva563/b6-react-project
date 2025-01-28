@@ -10,7 +10,9 @@ import Formemail from './Formemail';
 import Format from './Format';
 import Text from './Text';
 import Radio from './Radio';
+import MurariForm from './MurariForm';
 import Checkbox from './Checkbox';
+
 
 
 
@@ -29,8 +31,9 @@ function App() {
       <Formemail />
       <Format />
       <Text />
-      <Radio />
+     
       <Checkbox />
+     <MurariForm />
     </div>
   );
 }
