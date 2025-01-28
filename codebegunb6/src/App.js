@@ -8,10 +8,10 @@ import Priya from './Priya';
 import Snehitha from './Snehitha';
 import Formemail from './Formemail';
 import Format from './Format';
-import Radio from './Radio';
 import Text from './Text';
+import Radio from './Radio';
 import MurariForm from './MurariForm';
-
+import Checkbox from './Checkbox';
 
 
 
@@ -31,8 +31,9 @@ function App() {
       <Formemail />
       <Format />
       <Text />
-      <Radio />
-      <MurariForm />
+     
+      <Checkbox />
+     <MurariForm />
     </div>
   );
 }
