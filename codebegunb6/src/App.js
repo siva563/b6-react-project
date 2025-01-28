@@ -15,8 +15,6 @@ import Checkbox from './Checkbox';
 
 
 
-
-
 function App() {
   return (
     <div className="App">
