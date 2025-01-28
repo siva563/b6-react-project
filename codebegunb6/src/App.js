@@ -10,6 +10,8 @@ import Formemail from './Formemail';
 import Format from './Format';
 import Radio from './Radio';
 import Text from './Text';
+import MurariForm from './MurariForm';
+
 
 
 
@@ -30,6 +32,7 @@ function App() {
       <Format />
       <Text />
       <Radio />
+      <MurariForm />
     </div>
   );
 }
