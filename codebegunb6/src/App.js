@@ -12,6 +12,7 @@ import Text from './Text';
 import Radio from './Radio';
 import MurariForm from './MurariForm';
 import Checkbox from './Checkbox';
+import Murali_form from './Murali_form';
 
 
 
@@ -32,6 +33,7 @@ function App() {
       <Format />
       <Text />
     <Radio />
+    <Murali_form />
       
 
      
