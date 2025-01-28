@@ -15,6 +15,8 @@ import Checkbox from './Checkbox';
 
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -29,9 +31,13 @@ function App() {
       <Formemail />
       <Format />
       <Text />
+    <Radio />
+      
+
      
       <Checkbox />
      <MurariForm />
+
     </div>
   );
 }
