@@ -12,7 +12,7 @@ function Designtask() {
       >
        
         <div style={{ gridColumn: "span 1" }}>
-          <label htmlFor="Name">Your Name</label>
+          <label htmlFor="Name">Name</label>
           <input
             type="text"
             placeholder="Your Name"
@@ -29,9 +29,9 @@ function Designtask() {
         </div>
 
         <div style={{ gridColumn: "span 2" }}>
-          <label htmlFor="Bio">Biographical Statement</label>
+          <label htmlFor="Bio" style={{margin:left}}>Biographical Statement</label>
           <textarea
-            placeholder="Write here"
+            placeholder="A bit about you"
             style={{
               padding: "8px",
               width: "100%",
@@ -79,26 +79,18 @@ function Designtask() {
 
         <div style={{ gridColumn: "span 2" }}>
           <label htmlFor="Hobbies">Hobbies: </label>
-          <div>
             <input type="checkbox" name="Hobbies" value="surfing" /> Surfing
             <input type="checkbox" name="Hobbies" value="Running" /> Running
             <input type="checkbox" name="Hobbies" value="Biking" /> Biking
             <input type="checkbox" name="Hobbies" value="Padding" /> Padding
-          </div>
         </div>
-
-       
         <div style={{ gridColumn: "span 2" }}>
           <label htmlFor="Major">Major:</label>
-          <div>
             <input type="radio" name="Major" value="Physics" /> Physics
             <input type="radio" name="Major" value="Math" /> Math
             <input type="radio" name="Major" value="Chemistry" /> Chemistry
             <input type="radio" name="Major" value="Computers" /> Computers
-          </div>
         </div>
-
-        
         <div style={{ gridColumn: "span 2" }}>
           <button
             type="submit"
