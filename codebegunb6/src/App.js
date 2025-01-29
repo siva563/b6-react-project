@@ -12,7 +12,7 @@
 // import Radio from './Radio';
 // import Checkbox from './Checkbox';
 
-import Chandu_form from "./Chandu_form";
+//import Chandu_form from "./Chandu_form";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <Text />
       <Radio />
       <Checkbox /> */}
-      <Chandu_form />
+      {/* <Chandu_form /> */}
     </div>
   );
 }
