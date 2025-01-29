@@ -12,7 +12,7 @@ import Text from './Text';
 import Radio from './Radio';
 import MurariForm from './MurariForm';
 import Checkbox from './Checkbox';
-
+import murari2form from './murari2form';
 
 
 
@@ -31,12 +31,10 @@ function App() {
       <Formemail />
       <Format />
       <Text />
-    <Radio />
-      
-
-     
+      <Radio />
       <Checkbox />
-     <MurariForm />
+      <MurariForm />
+      <murari2form />
 
     </div>
   );
