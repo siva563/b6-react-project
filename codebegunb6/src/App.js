@@ -32,7 +32,8 @@ function App() {
       <Radio />
       <Checkbox /> */}
       {/* <Chandu_form /> */}
-      <Designtask/>
+      <Designtask />
+
     </div>
   );
 }

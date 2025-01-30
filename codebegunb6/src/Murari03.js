@@ -43,19 +43,19 @@ function Murari03() {
                     flex: "1"
                 }}
                 >
-                    <b style={{ marginLeft: "35%" }}>Prem Shahi</b>
-                    <p style={{ marginLeft: "31%", marginTop: "2%" }}>Web Developer</p>
+                    <b style={{ marginLeft: "0%" }}>Prem Shahi</b>
+                    <p style={{ marginLeft: "0%", marginTop: "2%" }}>Web Developer</p>
                     {/* Add stars here */}
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "25%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "35%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "45%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "55%" }}></i>
-                    <i class="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "65%" }} ></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "27%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "37%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "47%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "57%" }}></i>
+                    <i class="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "67%" }} ></i>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "15%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>About Me</button>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "55%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>Hire Me</button>
-                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "90%" }}></i>
-                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "90%" }}></i>
-                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "90%" }}></i>
+                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "94%" }}></i>
+                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "94%" }}></i>
+                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "94%" }}></i>
                 </div>
             </div>
 
@@ -99,19 +99,19 @@ function Murari03() {
                     flex: "1"
                 }}
                 >
-                    <b style={{ marginLeft: "35%" }}>Luca Shahi</b>
-                    <p style={{ marginLeft: "31%", marginTop: "2%" }}>App Developer</p>
+                    <b style={{ marginLeft: "0%" }}>Luca Shahi</b>
+                    <p style={{ marginLeft: "0%", marginTop: "2%" }}>App Developer</p>
                     {/* Add stars here */}
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "25%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "35%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "45%" }}></i>
-                    <i className="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "55%" }}></i>
-                    <i className="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "65%" }} ></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "27%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "37%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "47%" }}></i>
+                    <i className="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "57%" }}></i>
+                    <i className="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "67%" }} ></i>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "15%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>About Me</button>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "55%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>Hire Me</button>
-                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "90%" }}></i>
-                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "90%" }}></i>
-                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "90%" }}></i>
+                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "94%" }}></i>
+                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "94%" }}></i>
+                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "94%" }}></i>
                 </div>
             </div>
 
@@ -157,19 +157,19 @@ function Murari03() {
                     flex: "1"
                 }}
                 >
-                    <b style={{ marginLeft: "35%" }}>Milo Shahi</b>
-                    <p style={{ marginLeft: "31%", marginTop: "2%" }}>Photographer</p>
+                    <b style={{ marginLeft: "0%" }}>Milo Shahi</b>
+                    <p style={{ marginLeft: "0%", marginTop: "2%" }}>Photographer</p>
                     {/* Add stars here */}
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "25%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "35%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "45%" }}></i>
-                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "55%" }}></i>
-                    <i class="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "65%" }} ></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "27%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "37%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "47%" }}></i>
+                    <i className="bi bi-star-fill" style={{ color: "gold", position: "absolute", top: "70%", left: "57%" }}></i>
+                    <i class="bi bi-star" style={{ color: "gold", position: "absolute", top: "70%", left: "67%" }} ></i>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "15%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>About Me</button>
                     <button type="button" class="btn btn-primary" style={{ height: "25px", textAlign: "center", position: "absolute", left: "55%", top: "85%", lineHeight: "10px", backgroundColor: "rgb(141, 8, 243)" }}>Hire Me</button>
-                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "90%" }}></i>
-                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "90%" }}></i>
-                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "90%" }}></i>
+                    <i class="bi bi-facebook" style={{ position: "absolute", top: "5%", left: "94%" }}></i>
+                    <i class="bi bi-twitter" style={{ position: "absolute", top: "12%", left: "94%" }}></i>
+                    <i class="bi bi-github" style={{ position: "absolute", top: "19%", left: "94%" }}></i>
                 </div>
             </div>
         </div>
