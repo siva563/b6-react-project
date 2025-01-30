@@ -1,0 +1,121 @@
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f8f9fa; 
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 70%; 
+  margin-bottom: 30px; 
+}
+
+
+.card {
+  width: 25%; 
+  height: 500px; 
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: pink; 
+  border: 2px solid #FF69B4; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #FFB6C1;
+  border-color: #FF1493; 
+}
+
+
+.card-image {
+  width: 100%; 
+  height: 250px; 
+  object-fit: cover; 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.social-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.facebook { color: #3b5998; }
+.twitter { color: #00acee; }
+.instagram { color: #C13584; }
+
+
+.rating {
+  font-size: 22px;
+  color: gold;
+  margin-top: 15px;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+button {
+  border-radius: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%; 
+    height: 450px; 
+  }
+}
+
+
+.text-box {
+  text-align: center;
+  background-color: pink; 
+  color: white; 
+  padding: 15px;
+  border-radius: 15px; 
+  width: 50%; 
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
