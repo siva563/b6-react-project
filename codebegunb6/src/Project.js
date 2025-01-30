@@ -16,7 +16,7 @@ function Designtask() {
           <input
             type="text"
             placeholder="Your Name"
-            style={{ padding: "8px", width: "100%" }}
+            style={{ padding: "8px", width: "100%" ,gap:"15px"}}
           />
         </div>
         <div style={{ gridColumn: "span 1" }}>
