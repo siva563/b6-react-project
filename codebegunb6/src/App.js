@@ -13,11 +13,12 @@
 // import Checkbox from './Checkbox';
 
 //import Chandu_form from "./Chandu_form";
+import React from "react";
+import Designtask from "./Basha";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Codebegun Welcome to React World</h1>
       {/* <Sharuk1 />
       <Sathvika />
       <Chandu />
@@ -31,6 +32,7 @@ function App() {
       <Radio />
       <Checkbox /> */}
       {/* <Chandu_form /> */}
+      <Designtask/>
     </div>
   );
 }
