@@ -1,4 +1,5 @@
 // import './App.css';
+import Card from './Components/Card';
 // import Sharuk1 from './Sharuk1';
 // import Sathvika from './Sathvika';
 // import Chandu from './Chandu';
@@ -12,9 +13,12 @@
 // import Radio from './Radio';
 // import Checkbox from './Checkbox';
 
+
+// import Chandu_form from "./Chandu_form";
 //import Chandu_form from "./Chandu_form";
 import React from "react";
 import Designtask from "./Basha";
+
 
 function App() {
   return (
@@ -30,9 +34,15 @@ function App() {
       <Format />
       <Text />
       <Radio />
+
+      <Checkbox />
+      <Chandu_form />  */}
+       <Card /> 
+
       <Checkbox /> */}
       {/* <Chandu_form /> */}
       <Designtask/>
+
     </div>
   );
 }
