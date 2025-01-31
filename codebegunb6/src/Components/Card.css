@@ -1,0 +1,139 @@
+.social-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff0290; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.Card {
+    width: 300px;
+    height: 480px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-container {
+    height: 250px;
+    background: linear-gradient(to left, #2d00f7, #ff0290);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    bottom: -40px; 
+    width: 100px;
+    height: 100px;
+    border-radius: 70%; 
+    overflow: hidden;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.lower-container {
+    margin-top: 80px; 
+    height: 200px;
+    background: white;
+    text-align: center;
+    font-family: initial;
+    padding: 20px;
+}
+
+.lower-container h2, .lower-container p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.lower-container h2 {
+    font-size: 24px; 
+    color: #333;
+}
+
+.lower-container p {
+    font-size: 16px;
+    color: #777;
+}
+
+.lower-container h3 {
+    color: orange;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 8px 20px;
+    border-radius: 10px 20px 30px;  
+    cursor: pointer;
+    font-size: 16px; 
+    transition: all 0.3s ease;
+    border: none;
+    color: white;
+}
+
+.follow-btn {
+    background-color: #0099ff;
+}
+
+.follow-btn:hover {
+    background-color: orangered;
+    transform: scale(1.05);
+}
+.follow-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-btn {
+    background-color: #0099ff;
+}
+
+.about-btn:hover {
+    background-color: orangered;
+    transform: scale(1.05);
+}
+
+.about-btn a {
+    color: white;
+    text-decoration: none;
+}

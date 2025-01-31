@@ -1,4 +1,5 @@
 // import './App.css';
+import Card from './Components/Card';
 // import Sharuk1 from './Sharuk1';
 // import Sathvika from './Sathvika';
 // import Chandu from './Chandu';
@@ -12,12 +13,11 @@
 // import Radio from './Radio';
 // import Checkbox from './Checkbox';
 
-//import Chandu_form from "./Chandu_form";
+// import Chandu_form from "./Chandu_form";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Codebegun Welcome to React World</h1>
       {/* <Sharuk1 />
       <Sathvika />
       <Chandu />
@@ -29,8 +29,9 @@ function App() {
       <Format />
       <Text />
       <Radio />
-      <Checkbox /> */}
-      {/* <Chandu_form /> */}
+      <Checkbox />
+      <Chandu_form />  */}
+       <Card /> 
     </div>
   );
 }
