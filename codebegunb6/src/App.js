@@ -39,7 +39,7 @@ function App() {
       <Chandu_form />  */}
        <Card /> 
 
-      <Checkbox /> */}
+      {/* <Checkbox />  */}
       {/* <Chandu_form /> */}
       <Designtask/>
 
