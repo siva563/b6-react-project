@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.outer-container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+/* Box Section (First row of 6 boxes - fixed in one row) */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0;
+    flex-wrap: nowrap; /* Prevents boxes from wrapping */
+}
+
+/* Individual Box */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Box Section (Second row with two large boxes below 1-3 and 4-6) */
+.big-box {
+    width: 400px; /* Makes it larger than the small boxes */
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+/* Box 8: Split into two equal parts */
+.big-box-container {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    padding: 20px;
+}
+
+.small-box {
+    width: 380px; /* Each small box takes up half the space of Box 8 */
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: lightblue;
+}
+/* Image Styling */
+.box-image {
+    width: 100%;   /* Makes the image take up the full width of the box */
+    height: 100%;  /* Makes the image take up the full height of the box */
+    object-fit: cover;  /* Ensures the image maintains aspect ratio without distortion */
+}

@@ -1,5 +1,5 @@
 // import './App.css';
-import Card from './Components/Card';
+// import Card from './Components/Card';
 // import Sharuk1 from './Sharuk1';
 // import Sathvika from './Sathvika';
 // import Chandu from './Chandu';
@@ -17,8 +17,8 @@ import Card from './Components/Card';
 // import Chandu_form from "./Chandu_form";
 //import Chandu_form from "./Chandu_form";
 import React from "react";
-import Designtask from "./Basha";
-
+// import Designtask from "./Basha";
+import Graph from "./Graph";
 
 function App() {
   return (
@@ -37,11 +37,11 @@ function App() {
 
       <Checkbox />
       <Chandu_form />  */}
-       <Card /> 
-
+       {/* <Card />  */}
+       <Graph/>
       {/* <Checkbox />  */}
       {/* <Chandu_form /> */}
-      <Designtask/>
+      {/* <Designtask/> */}
 
     </div>
   );
