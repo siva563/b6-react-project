@@ -7,7 +7,7 @@ function Designtask() {
       <div className="card-container">
     
         {[ 
-          { name: "Person 1", img: "/IMG-1.jpg" },
+          { name: "Person 1", img: "/IMG-1.jpg"},
           { name: "Person 2", img: "/IMG-2.jpg" },
           { name: "Person 3", img: "/IMG-3.jpg" }
         ].map((person, index) => (
