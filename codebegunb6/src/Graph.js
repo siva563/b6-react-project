@@ -2,7 +2,7 @@ import React from "react";
 import './Graph.css';
 import { Home, Layout, Package, FileText, FormInput, Image } from "lucide-react";
 
-const Graph = () => {
+function Graph() {
   return (
     <div className="outer-container">
       {/* Navigation Bar */}
