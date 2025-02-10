@@ -1,0 +1,248 @@
+.Mainline{
+    display: flex;
+    gap: 80px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.Navlinks{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+}
+.Button{
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.card-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px 0; /* Reduce space between divs */
+  margin-bottom: 10px; /* Reduce bottom margin between card groups */
+}
+
+/* Reduce space between card groups */
+.card-wrapper1:not(:last-child) {
+  margin-bottom: 20px; /* Moderate space between sections */
+}
+
+.card-container1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Reduce gap between cards */
+  width: 90%;
+}
+
+/* Adjust card width & height for better fit */
+.card {
+  width: 30%;
+  height: 420px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: white; /* Ensure background remains white */
+}
+.card:hover {
+  transform: translateY(-8px); /* Moves card up slightly */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Adds a glow effect */
+  background-color: #f0f0f0; /* Optional: Light gray background on hover */
+}
+/* Ensure the images do not create extra space */
+.card-image1 {
+  width: 100%;
+  height: 220px; /* Reduce height */
+  object-fit: contain; /* Prevents stretching */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Ensure buttons are well-aligned */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-container1 {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 90%; /* Full width for smaller screens */
+      height: auto; /* Adjust height automatically */
+      margin-bottom: 15px; /* Reduce space between cards */
+  }
+}
+
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0;
+    flex-wrap: nowrap; /* Prevents boxes from wrapping */
+}
+
+/* Individual Box */
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* Box Section (Second row with two large boxes below 1-3 and 4-6) */
+.big-box {
+    width: 800px; /* Makes it larger than the small boxes */
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: lightgray;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* Box 8: Split into two equal parts */
+.big-box-container {
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    padding: 20px;
+}
+
+.small-box {
+    width: 380px; /* Each small box takes up half the space of Box 8 */
+    height: 200px;
+    /* border: 0px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    /* background-color: lightblue; */
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: white;
+}
+/* Image Styling */
+.box-image {
+    width: 100%;   /* Makes the image take up the full width of the box */
+    height: 100%;  /* Makes the image take up the full height of the box */  /* Ensures the image maintains aspect ratio without distortion */
+}
+
+h3{
+  text-align: center;
+}
+img{
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+img:hover{
+  transform: translateY(-10px);
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+.card-group {
+  display: flex;
+  justify-content: center; /* Centers cards */
+  gap: 20px; /* Adds equal spacing between cards */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  margin-bottom: 40px; /* Moderate space between card groups */
+}
+
+.card1 {
+  width: 300px; /* Fixed width */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 15px;
+  margin: 0; /* Remove unnecessary margins */
+  transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  height: 200px; /* Fixed height for uniformity */
+  object-fit: contain; /* Prevents stretching */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card1 {
+    width: 90%; /* Full width on smaller screens */
+    margin-bottom: 20px; /* Space between stacked cards */
+  }
+}
+.choose-section {
+  text-align: center;
+  margin-top: 50px; /* Adds space above the heading */
+}
+
+/* Centered Heading */
+.choose-heading {
+  font-size: 28px;
+  /* font-weight: bold; */
+  text-align: center;
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+.Alumni{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 50px;
+  font-style: normal;
+  color: navy;
+}
+.Companies{
+  display: flex;
+  gap: 80px;
+  margin-left: 150px;
+}
+
+.Trusted{
+  text-align: center;
+  font-size: xxl;
+  color: navy;
+}

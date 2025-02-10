@@ -10,7 +10,6 @@ import React from "react";
  import Documentation from "./Dashboard/Pages/Documentation";
 
 
-
 function App() {
   return (
   
@@ -26,6 +25,38 @@ function App() {
           <Route path="/documentation" element={<Documentation />} />
         </Routes>
     </Router>
+// import Chandu_form from "./Chandu_form";
+//import Chandu_form from "./Chandu_form";
+import React from "react";
+// import Designtask from "./Basha";
+// import Graph from "./Graph";
+import Codebegun from "./Codebegun";
+
+function App() {
+  return (
+    <div className="App">
+      {/* <Sharuk1 />
+      <Sathvika />
+      <Chandu />
+      <Murali />
+      <Murari1 />
+      <Priya />
+      <Snehitha />
+      <Formemail />
+      <Format />
+      <Text />
+      <Radio />
+
+      <Checkbox />
+      <Chandu_form />  */}
+       {/* <Card />  */}
+       {/* <Graph/> */}
+      {/* <Checkbox />  */}
+      {/* <Chandu_form /> */}
+      {/* <Designtask/> */}
+      <Codebegun/>
+
+    </div>
   );
 }
 
