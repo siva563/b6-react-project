@@ -18,7 +18,8 @@
 //import Chandu_form from "./Chandu_form";
 import React from "react";
 // import Designtask from "./Basha";
-import Graph from "./Graph";
+// import Graph from "./Graph";
+import Codebegun from "./Codebegun";
 
 function App() {
   return (
@@ -38,10 +39,11 @@ function App() {
       <Checkbox />
       <Chandu_form />  */}
        {/* <Card />  */}
-       <Graph/>
+       {/* <Graph/> */}
       {/* <Checkbox />  */}
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
+      <Codebegun/>
 
     </div>
   );
