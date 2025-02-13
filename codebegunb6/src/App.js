@@ -8,7 +8,7 @@ import React from "react";
 //  import Forms from "./Dashboard/Pages/Forms";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
-import Codebegun from "./Codebegun";
+// import Codebegun from "./Codebegun";
 
 // function App() {
 //   return (
@@ -29,6 +29,7 @@ import Codebegun from "./Codebegun";
 //import Chandu_form from "./Chandu_form";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
+import Form from "./Form";
 
 
 function App() {
@@ -53,8 +54,8 @@ function App() {
       {/* <Checkbox />  */}
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
-      <Codebegun/>
-
+      {/* <Codebegun/> */}
+      <Form/>
     </div>
   );
 }
