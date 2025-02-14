@@ -5,7 +5,7 @@ function Todo() {
   const [todos, setTodos] = useState([]);
   const [users, setUsers] = useState({});
   const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState("all"); // Dropdown filter state
+  const [filter, setFilter] = useState("all");
 
   useEffect(() => {
     axios
@@ -30,11 +30,10 @@ function Todo() {
       });
   }, []);
 
-  // Filter tasks based on dropdown selection
   const filteredTodos = todos.filter((todo) => {
     if (filter === "completed") return todo.completed;
     if (filter === "pending") return !todo.completed;
-    return true; // Show all
+    return true;
   });
 
   const userTasks = filteredTodos.reduce((acc, todo) => {
@@ -45,10 +44,9 @@ function Todo() {
   }, {});
 
   return (
-    <div className="min-h-screen bg-white text-black flex flex-col items-center py-10 px-4">
-      <h1 className="text-4xl font-bold mb-6">✅ Team Todo Tracker</h1>
+    <div className="min-h-screen bg-white text-black flex flex-col items-center py-10 px-4 text-center">
+      <h1 className="text-4xl font-bold mb-6">✅ Team Todo</h1>
 
-      {/* Dropdown Filter */}
       <div className="mb-6">
         <label className="mr-2 text-lg font-medium">Filter Tasks:</label>
         <select
@@ -65,20 +63,24 @@ function Todo() {
       {loading ? (
         <p className="text-xl">Loading Todos...</p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-4xl">
           {Object.entries(userTasks).map(([userName, tasks]) => (
-            <div key={userName} className="p-5 bg-gray-200 rounded-lg shadow-lg border border-gray-300">
+            <div
+              key={userName}
+              className="p-5 bg-gray-200 rounded-lg shadow-lg border border-gray-600 w-80"
+            >
               <h2 className="text-2xl font-bold mb-4 text-blue-600">{userName}</h2>
-              <ul className="space-y-3">
+              <div className="border border-gray-400 rounded-md p-3">
                 {tasks.map((task) => (
-                  <li key={task.id} className="p-3 rounded-lg flex items-center space-x-2">
-                    <span className="border-b border-black flex-grow pb-1">
-                      {task.todo}
-                    </span>
+                  <div
+                    key={task.id}
+                    className="p-2 border-b border-gray-300 last:border-b-0 flex justify-between items-center"
+                  >
+                    <span>{task.todo}</span>
                     <span className="text-2xl">{task.completed ? "✅" : "⏳"}</span>
-                  </li>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
@@ -86,4 +88,5 @@ function Todo() {
     </div>
   );
 }
+
 export default Todo;
