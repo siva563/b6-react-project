@@ -9,6 +9,7 @@ import React from "react";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
 import Codebegun from "./Codebegun";
+import Recipies from "./Recipies";
 
 // function App() {
 //   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <Checkbox />  */}
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
-      <Codebegun/>
+      {/* <Codebegun/> */}
+      <Recipies />
 
     </div>
   );

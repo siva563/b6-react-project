@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  /* Title Styling */
+  .title {
+    color: #ff5722;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid #ff5722;
+    transition: 0.3s;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    border-color: #e64a19;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.5);
+  }
+  
+  /* Recipe Cards */
+  .recipe-card {
+    width: 380px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .recipe-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .recipe-cuisine {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .recipe-btn {
+    background-color: #ff5722;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .recipe-btn:hover {
+    background-color: #e64a19;
+    box-shadow: 0px 4px 10px rgba(230, 74, 25, 0.5);
+  }
+  
