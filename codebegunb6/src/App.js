@@ -8,8 +8,11 @@ import React from "react";
 //  import Forms from "./Dashboard/Pages/Forms";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
-import Codebegun from "./Codebegun";
+// import Codebegun from "./Codebegun";
 import Recipies from "./Recipies";
+
+// import Codebegun from "./Codebegun";
+
 
 // function App() {
 //   return (
@@ -30,7 +33,8 @@ import Recipies from "./Recipies";
 //import Chandu_form from "./Chandu_form";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
-
+// import Form from "./Form";
+// import Todo from "./Todo";
 
 function App() {
   return (
@@ -56,7 +60,7 @@ function App() {
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
       <Recipies />
-
+     {/* <Form/> */}
     </div>
   );
 }
