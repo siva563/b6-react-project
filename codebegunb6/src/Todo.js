@@ -47,7 +47,7 @@ function Todo() {
 
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>✅ Team Todo</h1>
+      <h1 style={{color:"brown"}}>Sharuk Team Todo</h1>
 
       <div style={{ marginBottom: "20px" }}>
         <label style={{ marginRight: "10px" }}>Filter Tasks:</label>
