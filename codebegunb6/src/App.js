@@ -9,6 +9,10 @@ import React from "react";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
 // import Codebegun from "./Codebegun";
+import Recipies from "./Recipies";
+
+// import Codebegun from "./Codebegun";
+
 
 // function App() {
 //   return (
@@ -30,7 +34,7 @@ import React from "react";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
 // import Form from "./Form";
-import Todo from "./Todo";
+// import Todo from "./Todo";
 
 function App() {
   return (
@@ -55,8 +59,8 @@ function App() {
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
-      {/* <Form/> */}
-      <Todo/>
+      <Recipies />
+     {/* <Form/> */}
     </div>
   );
 }
