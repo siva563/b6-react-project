@@ -34,8 +34,8 @@ import Recipies from "./Recipies";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
 // import Form from "./Form";
-// import Todo from "./Todo";
-import Practice from "./Practice";
+import Todo from "./Todo";
+// import Practice from "./Practice";
 function App() {
   return (
     <div className="App">
@@ -60,8 +60,8 @@ function App() {
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
       {/* <Form/> */}
-      {/* <Todo/> */}
-      <Practice/>
+      <Todo/>
+      {/* <Practice/> */}
       <Recipies />
      {/* <Form/> */}
     </div>
