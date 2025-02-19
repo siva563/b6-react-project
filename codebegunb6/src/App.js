@@ -30,7 +30,8 @@ import React from "react";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
 // import Form from "./Form";
-import Todo from "./Todo";
+// import Todo from "./Todo";
+import Practice from "./Practice";
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
       {/* <Form/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Practice/>
     </div>
   );
 }
