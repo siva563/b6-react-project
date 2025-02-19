@@ -35,7 +35,7 @@ import Recipies from "./Recipies";
 // import Graph from "./Graph";
 // import Form from "./Form";
 // import Todo from "./Todo";
-
+import Practice from "./Practice";
 function App() {
   return (
     <div className="App">
@@ -59,6 +59,9 @@ function App() {
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
+      {/* <Form/> */}
+      {/* <Todo/> */}
+      <Practice/>
       <Recipies />
      {/* <Form/> */}
     </div>
