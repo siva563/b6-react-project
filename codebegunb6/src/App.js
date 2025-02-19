@@ -9,6 +9,10 @@ import React from "react";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
 // import Codebegun from "./Codebegun";
+import Recipies from "./Recipies";
+
+// import Codebegun from "./Codebegun";
+
 
 // function App() {
 //   return (
@@ -32,7 +36,6 @@ import React from "react";
 // import Form from "./Form";
 // import Todo from "./Todo";
 import Practice from "./Practice";
-
 function App() {
   return (
     <div className="App">
@@ -59,6 +62,8 @@ function App() {
       {/* <Form/> */}
       {/* <Todo/> */}
       <Practice/>
+      <Recipies />
+     {/* <Form/> */}
     </div>
   );
 }
