@@ -16,7 +16,7 @@ function Sharuk_form() {
         <label>Address</label>
         <textarea placeholder='Address'style={{padding:"8px",margin:"10px 0",display:"block",width:"100%"}}></textarea>
         <br/>
-        <label>
+        <label>Gender:
         <input type='radio' name='Gender' value="male"/> male
         </label>
         <br/>
@@ -28,7 +28,7 @@ function Sharuk_form() {
         <input type='radio' name='Gender' value="others"/> others
         </label>
         <br/>
-        <label>
+        <label>Sports:
         <input type='checkbox' name='sports' value="Cricket"/> Cricket
         </label>
         <label>
