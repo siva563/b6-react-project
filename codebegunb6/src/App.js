@@ -12,6 +12,9 @@ import ClonePages from "./SwiggyUi/LandingPages/ClonePages";
 // import Codebegun from "./Codebegun";
 // import Recipies from "./Recipies";
 
+// import Codebegun from "./Codebegun";
+
+
 // function App() {
 //   return (
   
@@ -31,6 +34,12 @@ import ClonePages from "./SwiggyUi/LandingPages/ClonePages";
 //import Chandu_form from "./Chandu_form";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
+// import Form from "./Form";
+// import Todo from "./Todo";
+// import Practice from "./Practice";
+import Myntra from "./Myntra";
+
+
 
 
 function App() {
@@ -56,9 +65,15 @@ function App() {
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
+
+      {/* <Form/> */}
+      {/* <Todo/> */}
+      {/* <Practice/> */}
+      {/* <Recipies /> */}
+     {/* <Form/> */}
+     <Myntra/>
       {/* <Recipies /> */}
       <ClonePages />
-
     </div>
   );
 }
