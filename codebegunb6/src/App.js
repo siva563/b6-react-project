@@ -1,4 +1,5 @@
 import React from "react";
+import ClonePages from "./SwiggyUi/LandingPages/ClonePages";
 //  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //  import Header from "./Dashboard/Header";
 //  import Home from "./Dashboard/Pages/Home";
@@ -37,6 +38,10 @@ import React from "react";
 // import Todo from "./Todo";
 // import Practice from "./Practice";
 import Myntra from "./Myntra";
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -60,12 +65,15 @@ function App() {
       {/* <Chandu_form /> */}
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
+
       {/* <Form/> */}
       {/* <Todo/> */}
       {/* <Practice/> */}
       {/* <Recipies /> */}
      {/* <Form/> */}
      <Myntra/>
+      {/* <Recipies /> */}
+      <ClonePages />
     </div>
   );
 }
