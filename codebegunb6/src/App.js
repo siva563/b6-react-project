@@ -9,7 +9,7 @@ import React from "react";
 //  import Gallery from "./Dashboard/Pages/Gallery";
 //  import Documentation from "./Dashboard/Pages/Documentation";
 // import Codebegun from "./Codebegun";
-import Recipies from "./Recipies";
+// import Recipies from "./Recipies";
 
 // import Codebegun from "./Codebegun";
 
@@ -34,8 +34,9 @@ import Recipies from "./Recipies";
 // import Designtask from "./Basha";
 // import Graph from "./Graph";
 // import Form from "./Form";
-import Todo from "./Todo";
+// import Todo from "./Todo";
 // import Practice from "./Practice";
+import Myntra from "./Myntra";
 function App() {
   return (
     <div className="App">
@@ -60,10 +61,11 @@ function App() {
       {/* <Designtask/> */}
       {/* <Codebegun/> */}
       {/* <Form/> */}
-      <Todo/>
+      {/* <Todo/> */}
       {/* <Practice/> */}
-      <Recipies />
+      {/* <Recipies /> */}
      {/* <Form/> */}
+     <Myntra/>
     </div>
   );
 }
