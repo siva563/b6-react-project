@@ -8,9 +8,11 @@ function Navbar(){
         <div className="companyTitle">
             <h2>CLONE</h2>
         </div>
-        <div className="searchBar">
-            <input type="text" placeholder="Search..." />
+        <div class="search-container">
+            <input type="text" placeholder="Search for recipes..."/>
+          <button>🔍</button>
         </div>
+
         <div className="userAuth">
             Login/SignUp
         </div>
