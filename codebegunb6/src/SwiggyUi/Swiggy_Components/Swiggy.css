@@ -67,10 +67,9 @@ body{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 53px;
+    gap: 1px;
     padding: 10px;
-    white-space: nowrap;
-    width: 83%;
+    width: 94%;
 }
 
 .StaticImages::-webkit-scrollbar {
