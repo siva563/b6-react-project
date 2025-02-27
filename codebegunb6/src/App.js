@@ -37,7 +37,7 @@ import ClonePages from "./SwiggyUi/LandingPages/ClonePages";
 // import Form from "./Form";
 // import Todo from "./Todo";
 // import Practice from "./Practice";
-import Myntra from "./Myntra";
+// import Myntra from "./Myntra";
 
 
 
@@ -71,7 +71,7 @@ function App() {
       {/* <Practice/> */}
       {/* <Recipies /> */}
      {/* <Form/> */}
-     <Myntra/>
+     {/* <Myntra/> */}
       {/* <Recipies /> */}
       <ClonePages />
     </div>
